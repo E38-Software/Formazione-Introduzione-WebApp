@@ -6,7 +6,11 @@ import packageInfo from '../../package.json';
 
 export const environment = {
   appVersion: packageInfo.version,
-  production: false
+  production: false,
+  parseUrl: 'https://jemoredev.b4a.io',
+  APPLICATION_ID: 'Krft4jWBzLRMq8etLCTYJE7HCG8zwW2qZDdh56TE',
+  JAVASCRIPT_KEY: 'chrOnGQmGyuAgEG880lozgWO6izlmYau3Wh2L8Pa',
+  LIVE_QUERY_SERVER: 'wss://jemoredev.b4a.io',
 };
 
 /*
