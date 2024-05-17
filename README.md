@@ -10,6 +10,18 @@ Questa formazione mira ad introdurre, in poco tempo, all'architettura delle weba
 - Parse server
 
 ### Risorse utilizzate
-- Berry free admin template, tema per Angular 17 (https://berrydashboard.io/angular/default/)
-- Back4app, hosting gratuito Parse Server + MongoDB (https://www.back4app.com/)
-- Libreria Adapter Parse Javascript SDK -> Typescript (Mandate una mail a stefano.lugli@e38.it per averne una copia, e scaricatela dal progetto)
+- [Berry free admin template](https://berrydashboard.io/angular/default/), tema per Angular 18
+- [Back4app](https://www.back4app.com/), hosting gratuito Parse Server + MongoDB
+- Libreria Adapter Parse Javascript SDK -> Typescript ([Repo Github](https://github.com/E38-Software/ParseTypescriptSDK))
+
+## Compilare il progetto
+1) Entrare nella cartellina "Frontend"
+2) Cambiare il contenuto del file "environment.ts" e "environment.prod.ts" con le coordinate giuste del server
+3) Eseguire i seguenti comandi: 
+    ```bash
+    yarn
+    yarn start
+    ```
+# Autori
+[Stefano Lugli](https://it.linkedin.com/in/stefano-lugli-b0404a1a0)
+[Mattia Faraci](https://it.linkedin.com/in/mattia-faraci?original_referer=https%3A%2F%2Fduckduckgo.com%2F)
